@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio HTML DIO - Módulo I</title>
 </head>
+
 <body>
     <h1 id="topo">Módulo 1 - Primeiros Passos com HTML</h1>
     <hr />
@@ -23,11 +25,18 @@
     </ul>
 
     <h2 id="historia">História dos Computadores</h2>
-    <p>A história dos computadores começou com máquinas enormes e lentas, criadas para cálculos matemáticos complexos. Com o passar das décadas, os computadores evoluíram para dispositivos <strong>menores</strong>, <u>rápidos</u> e <i>poderosos</i>. Desde o <mark>ENIAC</mark> até os smartphones atuais, cada geração trouxe avanços tecnológicos que mudaram a sociedade. Hoje, usamos computadores em praticamente tudo, desde <abbr title="Artificial Intelligence">AI</abbr> até sistemas embarcados.</p>
+    <p>A história dos computadores começou com máquinas enormes e lentas, criadas para cálculos matemáticos complexos.
+        Com o passar das décadas, os computadores evoluíram para dispositivos <strong>menores</strong>, <u>rápidos</u> e
+        <i>poderosos</i>. Desde o <mark>ENIAC</mark> até os smartphones atuais, cada geração trouxe avanços tecnológicos
+        que mudaram a sociedade. Hoje, usamos computadores em praticamente tudo, desde <abbr
+            title="Artificial Intelligence">AI</abbr> até sistemas embarcados.</p>
     <p><a href="#topo">Voltar ao índice</a></p>
 
     <h2 id="estrutura">Estrutura Básica do HTML</h2>
-    <p>Todo documento HTML começa com uma estrutura fundamental que indica ao navegador como o conteúdo deve ser interpretado. Essa estrutura é formada por tags principais como <strong>&lt;!DOCTYPE html&gt;</strong>, <strong>&lt;html&gt;</strong>, <strong>&lt;head&gt;</strong> e <strong>&lt;body&gt;</strong>. Veja um exemplo:</p>
+    <p>Todo documento HTML começa com uma estrutura fundamental que indica ao navegador como o conteúdo deve ser
+        interpretado. Essa estrutura é formada por tags principais como <strong>&lt;!DOCTYPE html&gt;</strong>,
+        <strong>&lt;html&gt;</strong>, <strong>&lt;head&gt;</strong> e <strong>&lt;body&gt;</strong>. Veja um exemplo:
+    </p>
     <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
@@ -38,22 +47,30 @@
   &lt;/body&gt;
 &lt;/html&gt;
     </code></pre>
-    <p>O <strong>&lt;head&gt;</strong> contém informações sobre a página (como título e metadados), enquanto o <strong>&lt;body&gt;</strong> contém o conteúdo visível, como textos, imagens e links.</p>
+    <p>O <strong>&lt;head&gt;</strong> contém informações sobre a página (como título e metadados), enquanto o
+        <strong>&lt;body&gt;</strong> contém o conteúdo visível, como textos, imagens e links.</p>
     <p><a href="#topo">Voltar ao índice</a></p>
 
     <h2 id="tags">Falando sobre Tags</h2>
-    <p>As <strong>tags</strong> são os blocos fundamentais do HTML. Cada elemento é definido entre colchetes angulares como <code>&lt;tag&gt;</code> e <code>&lt;/tag&gt;</code>. Existem tags para títulos (<i>headings</i>), parágrafos, imagens, links e muito mais. Algumas, como <strong>&lt;br&gt;</strong> e <strong>&lt;hr&gt;</strong>, não precisam de fechamento.</p>
+    <p>As <strong>tags</strong> são os blocos fundamentais do HTML. Cada elemento é definido entre colchetes angulares
+        como <code>&lt;tag&gt;</code> e <code>&lt;/tag&gt;</code>. Existem tags para títulos (<i>headings</i>),
+        parágrafos, imagens, links e muito mais. Algumas, como <strong>&lt;br&gt;</strong> e
+        <strong>&lt;hr&gt;</strong>, não precisam de fechamento.</p>
     <blockquote>As tags são a linguagem que dá forma à web.</blockquote>
     <p><a href="#topo">Voltar ao índice</a></p>
 
     <h2 id="atributos">Atributos das Tags</h2>
-    <p>Os <strong>atributos</strong> servem para definir propriedades extras de uma tag, como cor, tamanho, link e muito mais. Por exemplo, o atributo <i>href</i> é usado em links, e o atributo <i>src</i> em imagens. Exemplo:</p>
+    <p>Os <strong>atributos</strong> servem para definir propriedades extras de uma tag, como cor, tamanho, link e muito
+        mais. Por exemplo, o atributo <i>href</i> é usado em links, e o atributo <i>src</i> em imagens. Exemplo:</p>
     <pre><code>&lt;a href="https://www.dio.me" target="_blank"&gt;Visite a DIO&lt;/a&gt;</code></pre>
-    <p>Hoje, muitos atributos antigos, como os usados na tag <font color="blue">&lt;font&gt;</font>, foram substituídos por estilos CSS.</p>
+    <p>Hoje, muitos atributos antigos, como os usados na tag <font color="blue">&lt;font&gt;</font>, foram substituídos
+        por estilos CSS.</p>
     <p><a href="#topo">Voltar ao índice</a></p>
 
     <h2 id="textos">Textos</h2>
-    <p>No HTML, podemos usar várias tags para formatar textos: <strong>negrito</strong>, <i>itálico</i>, <u>sublinhado</u>, <mark>marcado</mark>, <del>riscado</del> e <small>texto menor</small>. Também podemos representar fórmulas: H<sub>2</sub>O e 10<sup>2</sup> = 100.</p>
+    <p>No HTML, podemos usar várias tags para formatar textos: <strong>negrito</strong>, <i>itálico</i>,
+        <u>sublinhado</u>, <mark>marcado</mark>, <del>riscado</del> e <small>texto menor</small>. Também podemos
+        representar fórmulas: H<sub>2</sub>O e 10<sup>2</sup> = 100.</p>
     <p><a href="#topo">Voltar ao índice</a></p>
 
     <h2 id="listas">Listas Ordenadas e Não Ordenadas</h2>
@@ -69,25 +86,34 @@
         <li>Smartphones</li>
         <li>Tablets</li>
     </ul>
-    <p><del>Antigamente, as listas eram estilizadas com a tag &lt;font&gt;.</del> Hoje usamos <font color="blue">CSS</font> para definir o estilo visual.</p>
+    <p><del>Antigamente, as listas eram estilizadas com a tag &lt;font&gt;.</del> Hoje usamos <font color="blue">CSS
+        </font> para definir o estilo visual.</p>
     <p><a href="#topo">Voltar ao índice</a></p>
 
     <h2 id="links">Links</h2>
-    <p>Os links conectam páginas e recursos na web. São criados com a tag <strong>&lt;a&gt;</strong> e o atributo <strong>href</strong>:</p>
+    <p>Os links conectam páginas e recursos na web. São criados com a tag <strong>&lt;a&gt;</strong> e o atributo
+        <strong>href</strong>:</p>
     <pre><code>&lt;a href="https://www.google.com" target="_blank"&gt;Abrir Google&lt;/a&gt;</code></pre>
     <p>O atributo <i>target="_blank"</i> faz o link abrir em uma nova aba.</p>
     <p><a href="#topo">Voltar ao índice</a></p>
 
     <h2 id="referencias">Links de Referência</h2>
-    <p><strong><u>Referências e Leituras Recomendadas:</u></strong> Abaixo estão alguns sites e materiais confiáveis para aprofundar seus estudos sobre HTML e desenvolvimento web. Todos os links abrem em uma nova aba.</p>
+    <p><strong><u>Referências e Leituras Recomendadas:</u></strong> Abaixo estão alguns sites e materiais confiáveis
+        para aprofundar seus estudos sobre HTML e desenvolvimento web. Todos os links abrem em uma nova aba.</p>
     <ul>
-        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" rel="noopener noreferrer">MDN Web Docs – HTML (pt-BR)</a></li>
-<li><a href="https://www.w3schools.com/html/" target="_blank" rel="noopener noreferrer">W3Schools – HTML Tutorial</a></li>
-<li><a href="https://web.dev/learn/html/" target="_blank" rel="noopener noreferrer">web.dev – Learn HTML</a></li>
-<li><a href="https://www.geeksforgeeks.org/html-introduction/" target="_blank" rel="noopener noreferrer">GeeksforGeeks – Introduction to HTML</a></li>
-<li><a href="https://www.devmedia.com.br/html-basico-codigos-e-tags-html/16596" target="_blank">DevMedia - HTML Básico: Códigos e Tags</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" rel="noopener noreferrer">MDN
+                Web Docs – HTML (pt-BR)</a></li>
+        <li><a href="https://www.w3schools.com/html/" target="_blank" rel="noopener noreferrer">W3Schools – HTML
+                Tutorial</a></li>
+        <li><a href="https://web.dev/learn/html/" target="_blank" rel="noopener noreferrer">web.dev – Learn HTML</a>
+        </li>
+        <li><a href="https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos" target="_blank">Hostinger -
+                O que é HTML? Conceitos Básicos</a></li>
+        <li><a href="https://www.devmedia.com.br/html-basico-codigos-e-tags-html/16596" target="_blank">DevMedia - HTML
+                Básico: Códigos e Tags</a></li>
 
-    <hr />
-    <h6><small>Desenvolvido por <strong>Marcelo Azevedo</strong> — Desafio HTML DIO • 23/10/2025</small></h6>
+        <hr />
+        <h6><small>Desenvolvido por <strong>Marcelo Azevedo</strong> — Desafio HTML DIO • 23/10/2025</small></h6>
 </body>
+
 </html>
