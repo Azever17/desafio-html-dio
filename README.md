@@ -1,6 +1,6 @@
 # 🧩 Desafio HTML DIO
 
-Projeto desenvolvido como parte do **Desafio de Projeto – Módulo 1: Primeiros Passos com HTML** da [Digital Innovation One (DIO)](https://www.dio.me).
+Projeto desenvolvido como parte do **Desafio de Projeto – Módulo 1: Primeiros Passos com HTML**
 
 O objetivo foi criar uma página HTML simples aplicando as principais tags estudadas durante o módulo, explorando a estrutura básica de um documento HTML5.
 
